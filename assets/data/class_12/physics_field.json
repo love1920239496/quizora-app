@@ -1,0 +1,31 @@
+{
+  "notes": {
+    "summary": "Electrostatics deals with the study of forces, fields, and potentials arising from static electric charges. Coulomb's law provides the mathematical basis for calculations.",
+    "keyPoints": [
+      "Like charges repel each other and unlike charges attract.",
+      "Electric field lines start from positive charges and end at negative charges.",
+      "Electric flux is the total number of field lines crossing any surface."
+    ],
+    "definitions": [
+      "Electric Field: Force per unit positive test charge experienced at a spatial point."
+    ],
+    "formulas": [
+      "Coulomb Force: F = q1*q2 / (4 * pi * epsilon * r^2)",
+      "Gauss Law: flux = Q_enclosed / epsilon"
+    ],
+    "importantLines": [
+      "Electric field lines never cross each other because at the intersection, there would be two directions of field, which is impossible."
+    ],
+    "revisionTricks": [
+      "NoCross: Field lines can never intersect."
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the SI unit of electric dipole moment?",
+      "options": ["Coulomb-meter (C m)", "Newton-Coulomb (N/C)", "Weber (Wb)", "Farad (F)"],
+      "correctIndex": 0,
+      "explanation": "Dipole moment p = q * 2a, so its SI unit is Coulomb-meter."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "notes": {
+    "summary": "Light is a form of electromagnetic radiation that can be detected by the human eye. Understanding light's reflection and refraction properties is key to modern optical instruments.",
+    "keyPoints": [
+      "Light travels in a straight-line path in uniform media.",
+      "Reflection is the bouncing back of light rays when they strike a polished boundary layer.",
+      "Refraction is the bend in light's trajectory when transitioning between medium classes of varying optical densities."
+    ],
+    "definitions": [
+      "Reflection: Bouncing of incident light back into original medium.",
+      "Refraction: Change in wave speed and direction at refractive index interfaces."
+    ],
+    "formulas": [
+      "Mirror Equation: 1/f = 1/v + 1/u",
+      "Lens Equation: 1/f = 1/v - 1/u",
+      "Magnification: m = -v/u (Mirrors) or m = v/u (Lenses)"
+    ],
+    "importantLines": [
+      "The refractive index of medium 2 with respect to medium 1 is the ratio of speed of light in medium 1 to speed of light in medium 2."
+    ],
+    "revisionTricks": [
+      "Remember: CoCo - Concave Converging; Convex Diverging for Mirrors."
+    ]
+  },
+  "questions": [
+    {
+      "question": "Which mirror type is standard for vehicle headlights?",
+      "options": ["Concave Mirror", "Convex Mirror", "Plane Mirror", "Cylindrical Mirror"],
+      "correctIndex": 0,
+      "explanation": "Concave mirrors when sourced at focus generate highly collimated powerful parallel beams of light."
+    },
+    {
+      "question": "The refractive index of glass with respect to air is 1.5. What is the speed of light in glass?",
+      "options": ["2.0 x 10^8 m/s", "3.0 x 10^8 m/s", "1.5 x 10^8 m/s", "2.25 x 10^8 m/s"],
+      "correctIndex": 0,
+      "explanation": "Speed of light in medium = Speed in vacuum / Refractive index = 3.0 x 10^8 / 1.5 = 2.0 x 10^8 m/s."
+    }
+  ]
+}

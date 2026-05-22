@@ -1,0 +1,31 @@
+{
+  "notes": {
+    "summary": "A quadratic equation in variable x is an equation of the form ax^2 + bx + c = 0, where a, b, and c are real numbers and unequal to zero.",
+    "keyPoints": [
+      "Any real value alpha is a root if a(alpha)^2 + b(alpha) + c = 0 holds.",
+      "The degree of a quadratic expression is strictly two.",
+      "A quadratic equation can have at most two real roots."
+    ],
+    "definitions": [
+      "Discriminant: The expression D = b^2 - 4ac, which categorizes the roots."
+    ],
+    "formulas": [
+      "Quadratic Formula: x = (-b +- sqrt(b^2 - 4ac)) / (2a)",
+      "Discriminant: D = b^2 - 4ac"
+    ],
+    "importantLines": [
+      "If D > 0, roots are real and distinct. If D = 0, roots are real and equal. If D < 0, roots are imaginary."
+    ],
+    "revisionTricks": [
+      "Remember: 'D-Zero equals twin roots' for quick conceptual recall."
+    ]
+  },
+  "questions": [
+    {
+      "question": "What is the nature of roots for 2x^2 - 4x + 3 = 0?",
+      "options": ["Real and Distinct", "Real and Equal", "No Real Roots", "Infinite Roots"],
+      "correctIndex": 2,
+      "explanation": "D = b^2 - 4ac = 16 - 24 = -8. Since D < 0, the equation has no real roots."
+    }
+  ]
+}
