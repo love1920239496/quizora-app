@@ -1,0 +1,55 @@
+{
+  "class": "Class 12",
+  "subject": "Physics",
+  "chapter": "Electric Charges & Fields",
+  "notes": {
+    "summary": "This chapter is the cornerstone of electrostatics. It details electric charges, charge conservation, Coulomb's Law (force between stationary charges), electric fields, field configurations, dipoles, and Gauss's law for electric flux calculations.",
+    "keyPoints": "• Conservation of Charge: The total charge of an isolated system remains constant.\n• Coulomb's Law: F = q1 q2 / (4 π ε0 r^2).\n• Electric Field (E): Vector field around charge force density; E = F / q.\n• Gauss's Law: The total electric flux through a closed surface is Q_enclosed divided by ε0.",
+    "definitions": "• Quantization of Charge: Charge exists only as absolute integer multiples of the fundamental charge e (q = ne).\n• Electric Dipole: A system of two equal and opposite point charges separated by a small distance 2a.\n• Electric Flux (Φ): Total number of electric field lines passing normally through a given area.",
+    "formulas": "• q = n * e (e = 1.6 x 10^-19 C)\n• F = (1 / 4πε0) * (q1 * q2 / r^2)\n• E = F / q\n• p = q * 2a (Dipole moment)\n• Φ = ∮ E • dA = Q_enclosed / ε0",
+    "importantLines": "BOARD ESSENTIAL CONCEPT: Electric field lines never intersect. If they did, there would be two directions of electric field at the point of intersection, which is physically impossible.",
+    "revisionTricks": "Mnemonic: 'C-E-G' -> Charge, Electrostatic forces (Coulomb), Gauss's flux laws. These are key headings for board exam proofs!"
+  },
+  "questions": [
+    {
+      "question": "What is the SI unit of electric permittivity (ε0)?",
+      "options": ["C^2 N^-1 m^-2", "C^2 N m^2", "C^-2 N^-1 m^-2", "C^-2 N m^2"],
+      "correctIndex": 0,
+      "explanation": "From Coulomb's Law: F = (1/4πε0)*(q1 q2/r^2). Thus, ε0 = q1 q2 / (4π F r^2). The unit is C^2 / (N m^2) = C^2 N^-1 m^-2.",
+      "difficulty": "medium"
+    },
+    {
+      "question": "If a dielectric of constant K is inserted between two point charges, how does the electrostatic force change?",
+      "options": ["Decreases by a factor of K", "Increases by a factor of K", "Remains unchanged", "Becomes zero"],
+      "correctIndex": 0,
+      "explanation": "Coulombic force in medium is F_med = F_vacuum / K. Since K > 1 for dielectric media, the electrostatic force decreases by a factor of K.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "An electric dipole of dipole moment 'p' is placed parallel to a uniform electric field 'E'. The torque acting on it is:",
+      "options": ["Zero", "p * E", "p / E", "Infinite"],
+      "correctIndex": 0,
+      "explanation": "Torque τ = p x E = p * E * sin(θ). If the dipole is placed parallel, θ = 0°, and sin(0°) = 0, so torque is zero.",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Assertion (A): Electrostatic field lines do not form closed loops.\nReason (R): Electrostatic force is conservative in nature.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "correctIndex": 0,
+      "explanation": "Since the electrostatic field of stationary charges is conservative, the work draft around a closed loop is zero. Hence, electrostatic field lines cannot form closed continuous loops. Both statements are true and explain each other.",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A spherical Gaussian surface encloses a dipole of moment 'p'. The total electric flux through the surface is:",
+      "options": ["Zero", "p / ε0", "2q / ε0", "Infinite"],
+      "correctIndex": 0,
+      "explanation": "A dipole consists of equal and opposite charges (+q and -q), so the net enclosed charge Q_enclosed is 0. By Gauss's Law, Φ = Q_enclosed / ε0 = 0.",
+      "difficulty": "easy"
+    }
+  ]
+}

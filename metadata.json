@@ -1,0 +1,6 @@
+{
+  "name": "Quizora",
+  "description": "Quizora is a CBSE-based smart quiz learning app for students from Class 6 to Class 12.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

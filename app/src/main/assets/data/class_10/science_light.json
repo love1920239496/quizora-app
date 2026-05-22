@@ -1,0 +1,81 @@
+{
+  "class": "Class 10",
+  "subject": "Science",
+  "chapter": "Light - Reflection & Refraction",
+  "notes": {
+    "summary": "Light is an electromagnetic wave that allows us to see objects. This chapter covers the two primary phenomena of light: Reflection (bouncing off a polished surface) and Refraction (bending when transitioning between media). We detail spherical mirrors (concave/convex) and lens configurations.",
+    "keyPoints": "• Laws of Reflection: The angle of incidence equals the angle of reflection. The incident ray, the normal, and the reflected ray all lie in the same plane.\n• Mirror Formula: 1/f = 1/v + 1/u (with Cartesian sign conventions).\n• Refraction: Caused by change in speed of light across media. Expressed via Snell's Law (sin i / sin r = constant).\n• Lens Formula: 1/f = 1/v - 1/u.\n• Linear Magnification (m): Ratio of height of image to height of object. For mirrors m = -v/u, for lenses m = +v/u.",
+    "definitions": "• Focal Length (f): Distance between polar center and principal focus of a lens or mirror.\n• Refractive Index (n): Measure of bending of light ray when passing from one medium to another; n = c / v.\n• Dioptre (D): SI unit of power of lens. 1 Dioptre is the power of a lens whose focal length is 1 meter.",
+    "formulas": "• f = R / 2\n• 1/f = 1/v + 1/u [Mirror]\n• 1/f = 1/v - 1/u [Lens]\n• n = c / v\n• P = 1 / f (meters)",
+    "importantLines": "BOARD HIGH-YIELD TIP: Convex mirrors always form virtual, erect, and diminished images. Concave lenses always form virtual, erect, and diminished images regardless of object distance.",
+    "revisionTricks": "Mnemonic: 'L-M-N' -> Lens, Minus, Negative power for concave! Mirrors are positive addition, Lenses subtract."
+  },
+  "questions": [
+    {
+      "question": "Which of the following mirrors is used by a dentist to examine a small cavity in a patient's tooth?",
+      "options": ["Convex Mirror", "Concave Mirror", "Plane Mirror", "Cylindrical Mirror"],
+      "correctIndex": 1,
+      "explanation": "Dentists use concave mirrors because when placed close to the teeth, they produce a virtual, erect, and highly magnified image of the cavity.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "The refractive index of water is 1.33. What is the speed of light in water?",
+      "options": ["2.25 x 10^8 m/s", "3.00 x 10^8 m/s", "1.50 x 10^8 m/s", "2.00 x 10^8 m/s"],
+      "correctIndex": 0,
+      "explanation": "Speed of light in water v = c / n = (3 x 10^8) / 1.33 = 2.25 x 10^8 m/s.",
+      "difficulty": "medium"
+    },
+    {
+      "question": "An object is placed at a distance of 10 cm in front of a convex mirror of focal length 15 cm. Find the position of the image.",
+      "options": ["v = +6 cm", "v = -6 cm", "v = +30 cm", "v = -30 cm"],
+      "correctIndex": 0,
+      "explanation": "For convex mirror, f = +15 cm, u = -10 cm. Using 1/f = 1/v + 1/u -> 1/15 = 1/v - 1/10 -> 1/v = 1/15 + 1/10 = 5/30 = 1/6. Thus, v = +6 cm (behind the mirror).",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "A spherical mirror and a thin spherical lens have each a focal length of -15 cm. The mirror and the lens are likely to be:",
+      "options": ["Both concave", "Both convex", "The mirror is concave and the lens is convex", "The mirror is convex and the lens is concave"],
+      "correctIndex": 0,
+      "explanation": "By cartesian sign conventions, the focal length of a concave mirror as well as a concave lens are both taken as negative.",
+      "difficulty": "medium"
+    },
+    {
+      "question": "No matter how far you stand from a mirror, your image appears erect. The mirror is likely to be:",
+      "options": ["Only plane", "Only concave", "Only convex", "Either plane or convex"],
+      "correctIndex": 3,
+      "explanation": "Both plane mirrors and convex mirrors always produce a virtual and erect image of an object regardless of object distance.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Assertion (A): The refractive index of a prism is maximum for violet light.\nReason (R): The speed of violet light is maximum in glass.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A.",
+        "Both A and R are true but R is not the correct explanation of A.",
+        "A is true but R is false.",
+        "A is false but R is true."
+      ],
+      "correctIndex": 2,
+      "explanation": "The refractive index of glass is maximum for violet light because violet light bends the most. However, this means speed of violet light in glass is actually minimum, not maximum (n = c/v). Thus, R is false.",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Match the entries in Column I with those in Column II:\nColumn I: (a) Convex Mirror, (b) Concave Mirror, (c) Convex Lens\nColumn II: (i) Converging mirror, (ii) Diverging mirror, (iii) Converging lens",
+      "options": [
+        "a-ii, b-i, c-iii",
+        "a-i, b-ii, c-iii",
+        "a-iii, b-i, c-ii",
+        "a-ii, b-iii, c-i"
+      ],
+      "correctIndex": 0,
+      "explanation": "A convex mirror is diverging (a-ii), a concave mirror is converging (b-i), and a convex lens is converging (c-iii).",
+      "difficulty": "medium"
+    },
+    {
+      "question": "Where should an object be placed in front of a convex lens to get a real image of the size of the object?",
+      "options": ["At the principal focus", "At twice the focal length", "At infinity", "Between optical center and focus"],
+      "correctIndex": 1,
+      "explanation": "To obtain a real, inverted image of the same size, the object must be located at twice the focal length (2F) in front of the convex lens.",
+      "difficulty": "easy"
+    }
+  ]
+}
